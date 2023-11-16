@@ -103,3 +103,15 @@ Happy beta-testing!
 ```
 
 The Azure Files token is common for all the Early Access users.
+
+## Adding a user to the admin group
+
+Until the `kci` command line tool can do this, here's the manual approach with an interactive MongoDB shell:
+
+```
+var admin = db.usergroup.findOne({name: 'admin'})
+db.user.update(
+    { 'profile.username': 'username' },
+    { $push: { 'profile.groups': admin } }
+)
+```
