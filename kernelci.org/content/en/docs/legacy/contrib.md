@@ -5,6 +5,12 @@ draft: false
 weight: 2
 ---
 
+> ToDo:
+> * Intro: contributing code and lab / hardware
+> * Criteria for merging PRs
+> * Commit formats
+> * Staging: link to staging instance docs and list of trusted GitHub users
+
 KernelCI core project is open for contributions. Contributions may consist of
 adding new builds, tests and device types as well as features and bugfixes for
 KernelCI core tools.
