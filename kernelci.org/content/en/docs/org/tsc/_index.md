@@ -7,6 +7,9 @@ aliases:
   - "/docs/team/tsc"
 ---
 
+motions should be proposed by TSC members
+
+
 The Technical Steering Committee (TSC) is a team of people who are responsible
 for keeping the KernelCI project in a good shape and driving its development.
 The [rules](#rules) are based on the LF [project

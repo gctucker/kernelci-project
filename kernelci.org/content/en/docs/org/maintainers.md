@@ -5,6 +5,9 @@ description: "KernelCI maintainers"
 weight: 5
 ---
 
+kernelci-admin: add message about legacy project in README.md
+
+
 There are several types of maintainer roles with different responsibilities:
 
 [software maintainers](#software-maintainers)
